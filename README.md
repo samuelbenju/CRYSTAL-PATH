@@ -1,9 +1,20 @@
-# Descarga de Crystal Path 1.3.0
+# Crystal Path 1.4.0 — Mundos de cristal
 
-Descarga **CrystalPath-PlayStore.zip** mediante **Download raw** en la vista del archivo de GitHub.
+[Descargar el juego y el proyecto Android Studio](./CrystalPath-PlayStore.zip?raw=true)
 
-Contiene el AAB firmado `CrystalPath-1.3.0-release-signed.aab` (codigo 4) y el proyecto para Android Studio. El AAB es el archivo para cargar en Play Console.
+Si GitHub muestra una vista del archivo, pulsa **Download raw**. Inicia sesión si este repositorio es privado.
 
-No contiene claves privadas ni contrasenas. La firma y la integridad de los archivos se verificaron antes de preparar esta entrega.
+El ZIP contiene:
 
-Antes de produccion, prueba el juego y AdMob en Android y completa las declaraciones de publicidad y privacidad en Play Console.
+- **CrystalPath-1.4.0-release-signed.aab**: bundle firmado con la clave de subida del titular, listo para cargar a Play Console.
+- **CrystalPath-1.4.0-AndroidStudio.zip**: proyecto portátil. Descomprime todo y abre `CrystalPath/android/`.
+- **RELEASE-NOTES.es.txt**: notas para Play Console.
+- **LEEME.txt** y **SHA256SUMS.txt**: instrucciones y comprobaciones de integridad.
+
+Package name: `com.samuelbenju.crystalpath` · Release name: `1.4.0 – Mundos de cristal` · Version code: **5**.
+
+Esta versión organiza la aventura en mundos de diez niveles, muestra los niveles superados y las estrellas, y añade recorridos con obstáculos crecientes. Cada mundo contiene los mismos niveles para todos los jugadores. Conserva el vestuario y los anuncios cada dos niveles completados.
+
+El AAB supera la firma estricta y `bundletool validate`. Pasan 217 pruebas de juego y 35 de interfaz, además de la validación final de sesiones. El proyecto extraído compila correctamente. Antes de publicar, realiza la prueba interna en Android y comprueba AdMob en un dispositivo.
+
+No se incluyen claves privadas ni contraseñas. Esta rama distribuye archivos; no publica automáticamente en Google Play.
