@@ -1,6 +1,10 @@
 # Crystal Path 1.4.0 — Mundos de cristal
 
-[Descargar el juego y el proyecto Android Studio](./CrystalPath-PlayStore.zip?raw=true)
+[Descargar el AAB firmado para Play Console](./CrystalPath-1.4.0-release-signed.aab?raw=true)
+
+[Descargar el juego y el proyecto Android Studio en ZIP](./CrystalPath-PlayStore.zip?raw=true)
+
+En Play Console abre tu versión, busca **App bundles → Subir**, selecciona el archivo terminado en `.aab`, espera a que se procese y guarda los cambios. El ZIP del proyecto se utiliza para Android Studio.
 
 Si GitHub muestra una vista del archivo, pulsa **Download raw**. Inicia sesión si este repositorio es privado.
 
